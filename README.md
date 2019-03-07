@@ -1,6 +1,6 @@
 ## Distant Supervision for Relation Extraction with Neural Instance Selector
 
-![](doc/framework.png)
+![](doc/framework.png =300x)
 
 ## Citation
 
@@ -35,7 +35,7 @@ In this repository we release code and data for our NIS module applied on three 
 
 ## Overview
 
-We implement three baseline models: [PCNN+ONE](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf), [PCNN+ATT](http://www.aclweb.org/anthology/P16-1200), [APCNN](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14491/14078). In our paper, we add NIS modules to them and evaluate the performance. Thus in this paper we release 6 models:
+We implement three baseline models: [PCNN+ONE](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf), [PCNN+ATT](http://www.aclweb.org/anthology/P16-1200), [APCNN](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14491/14078). In our paper, we add NIS modules to them and evaluate the performance. Thus in this repo we release 6 models:
 
 - [PCNN+ONE](models/pcnn_one.py): Implementation of PCNN with PyTorch.
 - [PCNN+ATT](models/pcnn_att.py): Add bilinear attention to PCNN.
@@ -48,15 +48,15 @@ Also we propose the ATS method to filter noise, which is aggregated with APCNN m
 
 ### Performance Evaluation
 
-![](doc/eval.png)
+![](doc/eval.png =300x)
 
 ### Effectiveness of NIS module
 
-![](doc/eff.png)
+![](doc/eff.png =300x)
 
 ### Analysis of ATS threshold
 
-![](doc/is_compare.png)
+![](doc/is_compare.png =300x)
 
 ## Usage
 
