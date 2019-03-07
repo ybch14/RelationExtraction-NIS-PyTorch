@@ -48,15 +48,15 @@ Also we propose the ATS method to filter noise, which is aggregated with APCNN m
 
 ### Performance Evaluation
 
-<img src="doc/eval.png" height="300">
+<img src="doc/eval.png" height="400">
 
 ### Effectiveness of NIS module
 
-<img src="doc/eff.png" height="300">
+<img src="doc/eff.png" height="400">
 
 ### Analysis of ATS threshold
 
-<img src="doc/is_compare.png" height="300">
+<img src="doc/is_compare.png" height="400">
 
 ## Usage
 
@@ -65,6 +65,8 @@ Also we propose the ATS method to filter noise, which is aggregated with APCNN m
 The very first step is to preprocess the raw data by running the script:
 
 ```
+git clone https://github.com/ybch14/RelationExtraction-NIS-PyTorch.git
+cd RelationExtraction-NIS-PyTorch
 chmod u+x preprocess.sh
 ./preprocess.sh
 ```
@@ -87,7 +89,7 @@ cp scripts/run_pcnn_one.sh .
 chmod u+x run_pcnn_one.sh
 ./run_pcnn_one.sh
 ```
-All other models can be trained in the same way except for different script names.
+All other models can be trained in the same way except for different script names. The training scripts make the ```results``` directory to save model snapshots, pr-curve data and log files.
 
 ### Evaluation
 
