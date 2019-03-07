@@ -1,6 +1,6 @@
 ## Distant Supervision for Relation Extraction with Neural Instance Selector
 
-![](doc/framework.png =300x)
+<img src="doc/framework.png" height="300">
 
 ## Citation
 
@@ -48,15 +48,15 @@ Also we propose the ATS method to filter noise, which is aggregated with APCNN m
 
 ### Performance Evaluation
 
-![](doc/eval.png =300x)
+<img src="doc/eval.png" height="300">
 
 ### Effectiveness of NIS module
 
-![](doc/eff.png =300x)
+<img src="doc/eff.png" height="300">
 
 ### Analysis of ATS threshold
 
-![](doc/is_compare.png =300x)
+<img src="doc/is_compare.png" height="300">
 
 ## Usage
 
