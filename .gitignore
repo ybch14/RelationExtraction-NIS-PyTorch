@@ -1,3 +1,4 @@
 *.txt
 data/*
 *.model
+*.pyc
